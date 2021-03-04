@@ -3,6 +3,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.125rem;
   font-weight: 300;
+  line-height: 1.6;
   /* border: 1px solid pink; */
 }
 
@@ -53,14 +54,21 @@ strong {
   font-weight: 700;
 }
 
-/* LOGO SUBTITLE */
-
 .subtitle {
   font-size: 0.75rem;
   font-weight: 700;
   color: #1792d2;
   margin: 0 0 1rem 0;
   letter-spacing: 1.75px;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #707070;
+  font-weight: 700;
+  padding: 0.25em 0;
 }
 
 .article-title {
@@ -76,10 +84,11 @@ strong {
   color: #1792d2;
   text-decoration: none;
   font-weight: 700;
+  letter-spacing: 1.25px;
 }
 
 .article-read-more:hover,
-article-read-more:focus {
+.article-read-more:focus {
   color: #143774;
   text-decoration: underline;
 }
@@ -91,6 +100,9 @@ article-read-more:focus {
 .widget-title,
 .widget-recent-post-title {
   font-size: 1rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .widget-title {
@@ -145,14 +157,6 @@ nav li {
   margin-left: 2em;
 }
 
-nav a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #707070;
-  font-weight: 700;
-  padding: 0.25em 0;
-}
-
 nav a:hover,
 nav a:focus {
   color: #1792d2;
@@ -165,16 +169,6 @@ nav a:focus {
 .current-page:hover {
   color: #707070;
 }
-
-/* MAIN */
-
-/* main {
-  width: 75%;
-}
-
-aside {
-  width: 25%;
-} */
 
 /* ARTICLES */
 
@@ -225,8 +219,8 @@ aside {
 /* FOOTER */
 
 footer {
-  background: #143774;
-  color: white;
+  background: #2c3c56;
+  color: rgba(255, 255, 255, 0.65);
   text-align: center;
   padding: 3em 0;
 }
